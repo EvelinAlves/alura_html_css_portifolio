@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+:root {
+    /* --cor-fundo-principal: #141E46;
+    --cor-fundo-secundaria: #C70039;
+    --cor-secundaria: #FF6969;
+    --cor-principal: #FFF5E0; */
+
+    /* --cor-fundo-principal: #10A19D;
+    --cor-fundo-secundaria: #FFBF00;
+    --cor-secundaria: #FF7000;
+    --cor-principal: #540375;
+   */
+    --cor-fundo-principal: #0078AA;
+    --cor-bg-secundaria: #3AB4F2;
+    
+    --cor-principal: #F6F6F6;
+    --cor-secundaria: #F2DF3A;
+    
+    --fonte-primaria: 'Montserrat', sans-serif;
+    --fonte-secundaria: 'Krona One', sans-serif;
+}
+
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-principal);
+}
+
+li {
+    list-style: n;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--cor-fundo-principal);
+}
+
+.portifolio {
+    display: flex;
+    width: 80%;
+    margin: 100px auto 0 auto;
+    justify-content: center;
+    gap: 96px;
+}
+
+.portifolio__sobre-mim {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.portifolio__sobre-mim, .portifolio__imagem {
+    height: 200px;
+    width: 100%;
+}
+
+
+h1, .portifolio__sobre-mim__titulo-destaque {
+    font-family: var(--fonte-secundaria);
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.portifolio__sobre-mim__titulo-destaque {
+    color: var(--cor-secundaria);
+}
+
+p {
+    line-height: 36px;
+}
+
+.portifolio_links {
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.portifolio_links a {
+    width: 280px;
+    padding: 16px;
+    background-color: var(--cor-principal);
+    text-align: center;
+    border-radius: 16px;
+    color: var(--cor-fundo-principal);
+}
+
+.portifolio__imagem {
+}
